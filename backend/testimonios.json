@@ -1,0 +1,35 @@
+{
+    "testimonios": [
+      {
+        "nombre": "Laura Gómez",
+        "fecha": "2024-05-15",
+        "comentario": "Excelente servicio, mi celular quedó como nuevo después de la reparación. Muy recomendados.",
+        "puntuacion": 5
+      },
+      {
+        "nombre": "Miguel Pérez",
+        "fecha": "2024-06-10",
+        "comentario": "Compré un celular reacondicionado y ha funcionado perfectamente. ¡Gracias por la atención!",
+        "puntuacion": 4
+      },
+      {
+        "nombre": "Ana Torres",
+        "fecha": "2024-07-01",
+        "comentario": "Tuve un problema con la pantalla y lo solucionaron en menos de una hora. Muy satisfecho.",
+        "puntuacion": 5
+      },
+      {
+        "nombre": "Carlos Martínez",
+        "fecha": "2024-08-20",
+        "comentario": "El servicio al cliente es excepcional. Me ayudaron a elegir el mejor celular para mis necesidades.",
+        "puntuacion": 4
+      },
+      {
+        "nombre": "Sofía Ruiz",
+        "fecha": "2024-09-10",
+        "comentario": "Me repararon mi teléfono rápido y a un buen precio. Definitivamente volveré.",
+        "puntuacion": 5
+      }
+    ]
+  }
+  

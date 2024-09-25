@@ -1,0 +1,15 @@
+{
+  "name": "frontend-politecnicograncolombiano",
+  "version": "1.0.0",
+  "description": "Proyecto de la universidad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.2"
+  }
+}

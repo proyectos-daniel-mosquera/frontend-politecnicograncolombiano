@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politecnicograncolombiano</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <span class="logo">
+                <img src="img/logo.png" alt="logo">
+            </span>
+            <ul class="menu">
+                <li><a href="#inicio"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Inicio</a></li>
+                <li><a href="#servicios"><i class="fa-solid fa-mobile-screen-button"></i>&nbsp; Nuestros Servicios</a></li>
+                <li><a href="#testimonios"><i class="fa-solid fa-quote-left"></i>&nbsp;Testimonios</a></li>
+                <li><a href="#contacto"><i class="fa-solid fa-headset"></i>&nbsp;Contactanos</a></li>
+                <li><a href="#registrase"><i class="fa-solid fa-user-plus"></i>&nbsp;Registrate</a></li>
+                <li><a href="#login"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;Iniciar Sesion</a></li>
+            </ul>
+        </nav>
+
+        <section id="inicio">
+            <div class="container">
+                <div class="contenido-slider">
+                    <div id="informacion-inicio">
+                        <h1>MR. PHONE</h1>
+                        <p>
+                            Con más de 5 años de experiencia, somos una empresa especializada en la reparación de celulares de todas las marcas.
+                            Además, ofrecemos una amplia selección de celulares nuevos y reacondicionados a los mejores precios del mercado.
+                            ¡Confía en nosotros para cuidar de tu dispositivo!
+                        </p>
+                        <a href="#contacto" class="btn-contacto">Contactanos</a>
+                        <br><br>
+                    </div>
+                    <div style="text-align:center;margin-right: 50px;">
+                        <img id="imagen" src="img/imagen1.png" alt="Imagen 1">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" >
+            <div class="container"><br>
+                <h1>Nuestros Servicios</h1>
+                <div class="row p-10">
+                    <div class="col-sm-6 p-20">
+                        <h3>Venta de Celulares</h3>
+                        <p>
+                            Descubre nuestra exclusiva selección de celulares nuevos y reacondicionados, perfectos para todos los gustos y presupuestos. Ofrecemos dispositivos de las marcas más reconocidas, garantizando calidad y rendimiento. Todos nuestros celulares vienen con garantía y un servicio al cliente excepcional. ¡No te pierdas las mejores ofertas y elige el smartphone que se adapta a ti! Visítanos y encuentra el tuyo hoy mismo.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 p-20">
+                        <h3>Reparaciones de Celulares</h3>
+                        <p>
+                            Ofrecemos servicios de reparación para todos los modelos y marcas. Desde pantallas agrietadas hasta problemas de batería, nuestro equipo de técnicos expertos garantiza un servicio rápido y eficiente. Utilizamos piezas de alta calidad y brindamos una garantía en todas nuestras reparaciones. No dejes que un problema técnico te detenga; visítanos y devuelve la vida a tu dispositivo. ¡Contáctanos hoy mismo!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonios">
+            <div class="container">
+                <h1 class="p-20">Testimonios de Nuestros Clientes</h1>
+                <div id="testimonios-contenedor"></div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h1 class="p-20">Contactanos</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4>Formulario de Contacto</h4>
+                        <form id="form-contacto">
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="form-control">
+                            <input type="email" name="email" id="email" placeholder="Email">
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+                            <button type="submit" class="btn-contacto">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="contenedor-otros-datos-contacto">
+                            <h4>Otros datos de Contacto</h4>
+                            <p><b>Dirección:</b>&nbsp;Av. Juan P. de la Torre 150, CABA</p>
+                            <p><b>Telefono:</b>&nbsp;11-1111-1111</p>
+                            <p><b>Email:</b>&nbsp;contacto@mrphone.com</p>
+                        </div>
+                        <div id="contenedor-redes-sociales">
+                            <h4>Siguenos en  nuestras redes sociales:</h4>
+                            <div id="redes-sociales">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer style="background-color: white;">
+        <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </footer>
+</body>
+</html>
